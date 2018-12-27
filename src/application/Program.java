@@ -46,7 +46,7 @@ public class Program {
 		}
 		
 		for(Product p: lista) {
-			System.out.println(p.toString());
+			System.out.println(p.priceTag());
 		}
 		
 		sc.close();
